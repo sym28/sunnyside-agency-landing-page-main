@@ -143,16 +143,19 @@ a {
 
 #testimonials {
     text-align: center;
-    padding: 5rem;
     background-color: hsl(26, 100%, 99%);
-
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .testimonials-flexbox {
     display: flex;
+    padding: 5rem;
+    
 }
 
 #testimonials h3 {
-    margin-bottom: 4rem;
+    margin: 0;
+    padding-top: 7rem;
     color: rgb(168, 167, 167);
     font-family: 'Fraunces', serif;
     font-weight: 700;
@@ -177,5 +180,18 @@ a {
 .client img {
     height: 90px;
     border-radius: 50px;
+}
+
+.image-gallery {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.image-gallery > * {
+    height: auto;
+    width: 25%;
 }
 
